@@ -9,6 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ['Contentful GmbH (Jan Lelis)', 'Contentful GmbH (Andreas Tiefenthaler)', 'Contentful GmbH (David Litvak Bruno)']
   gem.email         = 'rubygems@contentful.com'
   gem.homepage      = 'https://github.com/contentful/contentful.rb'
+  gem.metadata['allowed_push_host'] = 'https://rubygems.pkg.github.com/devsbb'
 
   gem.files         = Dir['{**/}{.*,*}'].select { |path| File.file?(path) && !path.start_with?('pkg') }
   gem.executables   = gem.files.grep(%r{^bin/}).map { |f| File.basename(f) }
