@@ -31,6 +31,6 @@ jobs:
         run: bundle exec rake spec
       - name: Release
         run: |
-          gem build contentful.rb.gemspec
+          gem build contentful.gemspec
           gem push --KEY github --host https://rubygems.pkg.github.com/devsbb *.gem
           gem push *.gem

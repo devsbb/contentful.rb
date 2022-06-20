@@ -1,7 +1,7 @@
 require File.expand_path('../lib/contentful/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name          = 'contentful'
+  gem.name          = 'contentful.rb'
   gem.version       = Contentful::VERSION
   gem.summary       = 'contentful'
   gem.description   = 'Ruby client for the https://www.contentful.com Content Delivery API'
