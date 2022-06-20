@@ -28,7 +28,7 @@ jobs:
           bundler-cache: true
           ruby-version: '2.3.1'
       - name: Run unit tests
-        run: yarn test
+        run: bundle exec rake spec
       - name: Release
         run: |
           gem build contentful.gemspec
