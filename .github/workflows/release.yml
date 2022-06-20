@@ -14,8 +14,6 @@ jobs:
         uses: styfle/cancel-workflow-action@0.9.1
         with:
           access_token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Set Credentials
-
       - name: Install Ruby and gems
         uses: ruby/setup-ruby@v1
         with:
