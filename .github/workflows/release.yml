@@ -31,4 +31,3 @@ jobs:
           printf -- "---\n:github: Bearer ${GITHUB_TOKEN}\n" > $HOME/.gem/credentials
           gem build contentful.gemspec
           gem push --key github --host https://rubygems.pkg.github.com/devsbb *.gem
-          gem push *.gem
